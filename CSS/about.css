@@ -126,6 +126,8 @@ body {
   /* Checkbox Hack: Show Menu When Checked */
   #menu-toggle:checked + .menu-icon + .menu {
     display: flex;
+     color: black;
+    background-color: aqua;
   }
 
     .AboutMeText {

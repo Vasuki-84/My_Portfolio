@@ -8,8 +8,6 @@ body {
     margin: 0px
 }
 
-
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -38,7 +36,6 @@ body {
   color: black;
   font-size: 16px;
 }
-
 /* Hamburger Icon */
 .menu-icon {
   font-style:italic;
@@ -47,24 +44,7 @@ body {
   cursor: pointer;
 }
 
-/* .nav ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    padding: 10px;
-    margin-left: 100px;
-} */
 
-
-/* .NavItems {
-    background-color: aqua;
-    color: black;
-    border-color: aqua 4px;
-    border-bottom-left-radius: 14px;
-    border-top-right-radius: 14px;
-    width: 80px;
-    height: 30px;
-} */
 
 .sticky {
     position: sticky;
@@ -111,6 +91,8 @@ body {
   /* Checkbox Hack: Show Menu When Checked */
   #menu-toggle:checked + .menu-icon + .menu {
     display: flex;
+     color: black;
+    background-color: aqua;
   }
 }
 
